@@ -3,7 +3,7 @@ name: Dify Workflow Automation
 on:
   schedule:
     # 使用更具体的 cron 表达式，在每小时的第1分钟运行 (UTC时间)
-    - cron: '1 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
